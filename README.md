@@ -36,7 +36,7 @@ To get started with KannadaKalisu, follow these steps:
 
 **License:**
 
-This project is licensed under the [MIT License]([https://github.com/mysteriousbug/KannadaKalisu/blob/main/LICENSE]), allowing for free use, modification, and distribution.
+This project is licensed under the [MIT License](https://github.com/mysteriousbug/KannadaKalisu/blob/main/LICENSE), allowing for free use, modification, and distribution.
 
 **Acknowledgments:**
 
