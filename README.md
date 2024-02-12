@@ -36,7 +36,7 @@ To get started with KannadaKalisu, follow these steps:
 
 **License:**
 
-This project is licensed under the [MIT License](link-to-license-file), allowing for free use, modification, and distribution.
+This project is licensed under the [MIT License]([link-to-license-file](https://github.com/mysteriousbug/KannadaKalisu/blob/main/LICENSE)), allowing for free use, modification, and distribution.
 
 **Acknowledgments:**
 
@@ -44,7 +44,7 @@ Special thanks to the contributors and open-source communities that have provide
 
 **Contact:**
 
-For questions, feedback, or collaboration opportunities, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions, feedback, or collaboration opportunities, please contact [your-email@example.com](mailto:ananya.aithal666@gmail.com).
 
 ---
 
