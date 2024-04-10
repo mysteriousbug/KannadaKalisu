@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronunciation Correction</title>
+</head>
+<body>
+    <h1>Pronunciation Correction Tool</h1>
+    <form id="correctionForm">
+        <label for="textInput">Enter text:</label>
+        <input type="text" id="textInput" name="text" required>
+        <input type="submit" value="Correct">
+    </form>
+    <p id="correctedText"></p>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $('#correctionForm').submit(function(e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '/correct_pronunciation',
+                contentType: 'application/json',
+                data: JSON.stringify({text: $('#textInput').val()}),
+                success: function(response) {
+                    $('#correctedText').text('Corrected Text: ' + response.correctedText);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
