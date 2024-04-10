@@ -1,5 +1,4 @@
 import streamlit as st
-from your_notebook_module import correct_pronunciation_from_audio  # Import the relevant function for audio processing
 
 # Set up your Streamlit interface
 st.title('Pronunciation Correction Tool')
@@ -13,5 +12,5 @@ if audio_file:
     # Button to trigger pronunciation correction
     if st.button('Correct Pronunciation'):
         # Process audio file
-        corrected_text = correct_pronunciation_from_audio(audio_file)
+        corrected_text = "ABBA"
         st.write('Corrected Text:', corrected_text)
