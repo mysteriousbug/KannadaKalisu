@@ -1,14 +1,17 @@
-from flask import Flask, request, jsonify
-from your_notebook_module import correct_pronunciation  # Import the function from your notebook after converting it to a .py file
+import streamlit as st
+from your_notebook_module import correct_pronunciation_from_audio  # Import the relevant function for audio processing
 
-app = Flask(__name__)
+# Set up your Streamlit interface
+st.title('Pronunciation Correction Tool')
 
-@app.route('/correct_pronunciation', methods=['POST'])
-def correct():
-    data = request.json
-    text = data['text']
-    corrected_text = correct_pronunciation(text)  # Call your notebook's function
-    return jsonify({'correctedText': corrected_text})
+# File uploader for audio input
+audio_file = st.file_uploader("Upload an audio file", type=['mp3', 'wav'])
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if audio_file:
+    st.audio(audio_file)
+
+    # Button to trigger pronunciation correction
+    if st.button('Correct Pronunciation'):
+        # Process audio file
+        corrected_text = correct_pronunciation_from_audio(audio_file)
+        st.write('Corrected Text:', corrected_text)
