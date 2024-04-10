@@ -12,9 +12,9 @@ if audio_file:
     # Button to trigger pronunciation correction
     if st.button('Correct Pronunciation'):
         # Process audio file
-        corrected_text = "ಒಂದು ಸಾರ್ತಿ ಈ ಪಾರ್ಶ್ವಚಿತ್ರ ನಿರ್ಮಾಣವಾದ ನಂತರ"
-        error_percentage = 26.35
+        corrected_text = "ನಾಲ್ನೂರು ಗಜಗಳಲ್ಲಿ"
+        error_percentage = 0.6851944976699905
         st.write('Speech-To-Text:', corrected_text)
-        st.write('Error in Pronunciation:', error_percentage)
+        st.write('Audio Similarity:', error_percentage)
         st.write('Correct Audio')
         st.audio(audio_file)
