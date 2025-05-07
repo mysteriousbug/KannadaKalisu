@@ -10,7 +10,7 @@ KannadaKalisu is an open-source project aimed at improving language learning out
 
 - **Machine Learning:** Leverages TensorFlow/Keras for building and training deep learning models capable of recognizing correct and incorrect pronunciations based on extracted MFCC features.
 
-- **Web Application:** Implements a user-friendly web interface using Flask/Django, allowing students to input spoken words and receive instant feedback on pronunciation accuracy.
+- **Web Application:** Implements a user-friendly web interface using Streamlit, allowing students to input spoken words and receive instant feedback on pronunciation accuracy.
 
 - **Real-time Feedback:** Employs real-time audio processing techniques to provide immediate feedback to users, enabling them to improve their pronunciation skills interactively.
 
@@ -42,7 +42,8 @@ This project is licensed under the [MIT License](https://github.com/mysteriousbu
 
 Special thanks to the contributors and open-source communities that have provided valuable insights, libraries, and resources to make KannadaKalisu possible.
 
-**Dataset**
+**Dataset:**
+
 https://drive.google.com/drive/folders/1WgGQaEjL-I5F5v2KYZXNTLI16Si28OQa?usp=sharing 
 
 **Contact:**
