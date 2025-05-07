@@ -42,6 +42,9 @@ This project is licensed under the [MIT License](https://github.com/mysteriousbu
 
 Special thanks to the contributors and open-source communities that have provided valuable insights, libraries, and resources to make KannadaKalisu possible.
 
+**Dataset**
+https://drive.google.com/drive/folders/1WgGQaEjL-I5F5v2KYZXNTLI16Si28OQa?usp=sharing 
+
 **Contact:**
 
 For questions, feedback, or collaboration opportunities, please contact [this email](mailto:ananya.aithal666@gmail.com).
